@@ -55,3 +55,4 @@ include_directories("${util_tools_INCLUDES}")
 # end of includes set up
 
 add_subdirectory ("numbers_transform")
+add_subdirectory ("numbers_average")
