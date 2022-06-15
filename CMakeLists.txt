@@ -56,3 +56,4 @@ include_directories("${util_tools_INCLUDES}")
 
 add_subdirectory ("numbers_transform")
 add_subdirectory ("numbers_average")
+add_subdirectory ("numbers_mixer")
