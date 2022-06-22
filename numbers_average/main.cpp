@@ -1,6 +1,7 @@
 ﻿// main.cpp : Defines the entry point for the application.
 //
 #include <algorithm>
+#include <iomanip>
 #include <iostream>
 #include <vector>
 #include <string>
@@ -40,6 +41,7 @@ int main(int argc, char* argv[])
 			auto val = nums_e + std::stof(std::string(nums_s_e));
 			return i == v.size() ? val / i : val;
 		});
+		//std::cout << std::setprecision(2);
 		std::copy(nums.begin(), nums.end(), std::ostream_iterator<float>(std::cout, " "));
 		std::cout << "\n";
 		i++;
